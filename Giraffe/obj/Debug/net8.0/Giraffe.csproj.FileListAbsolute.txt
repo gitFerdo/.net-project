@@ -1,0 +1,15 @@
+D:\Amasha\learn\.net-project\Giraffe\bin\Debug\net8.0\Giraffe.exe
+D:\Amasha\learn\.net-project\Giraffe\bin\Debug\net8.0\Giraffe.deps.json
+D:\Amasha\learn\.net-project\Giraffe\bin\Debug\net8.0\Giraffe.runtimeconfig.json
+D:\Amasha\learn\.net-project\Giraffe\bin\Debug\net8.0\Giraffe.dll
+D:\Amasha\learn\.net-project\Giraffe\bin\Debug\net8.0\Giraffe.pdb
+D:\Amasha\learn\.net-project\Giraffe\obj\Debug\net8.0\Giraffe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Amasha\learn\.net-project\Giraffe\obj\Debug\net8.0\Giraffe.AssemblyInfoInputs.cache
+D:\Amasha\learn\.net-project\Giraffe\obj\Debug\net8.0\Giraffe.AssemblyInfo.cs
+D:\Amasha\learn\.net-project\Giraffe\obj\Debug\net8.0\Giraffe.csproj.CoreCompileInputs.cache
+D:\Amasha\learn\.net-project\Giraffe\obj\Debug\net8.0\Giraffe.sourcelink.json
+D:\Amasha\learn\.net-project\Giraffe\obj\Debug\net8.0\Giraffe.dll
+D:\Amasha\learn\.net-project\Giraffe\obj\Debug\net8.0\refint\Giraffe.dll
+D:\Amasha\learn\.net-project\Giraffe\obj\Debug\net8.0\Giraffe.pdb
+D:\Amasha\learn\.net-project\Giraffe\obj\Debug\net8.0\Giraffe.genruntimeconfig.cache
+D:\Amasha\learn\.net-project\Giraffe\obj\Debug\net8.0\ref\Giraffe.dll
