@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Giraffe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4977d1469f58bb6700a74e43750d8e8257bf46b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acd86a52736632699e384ba8abb8538588fce6af")]
 [assembly: System.Reflection.AssemblyProductAttribute("Giraffe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Giraffe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
