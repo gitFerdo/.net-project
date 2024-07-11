@@ -10,14 +10,15 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-           Console.WriteLine("     /|");
-           Console.WriteLine("    / |");
-           Console.WriteLine("   /  |");
-           Console.WriteLine("  /   |");
-           Console.WriteLine(" /    |");
-           Console.WriteLine("/_____|");
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
 
-           Console.ReadLine();
+            Console.Write("Enter your age: ");
+            string age = Console.ReadLine();
+
+            Console.WriteLine("Hello, " + name + "!" + "\nAge: " + age);
+
+            //Console.ReadLine();
         }
     }
 }
