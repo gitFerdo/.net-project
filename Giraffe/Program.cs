@@ -10,45 +10,41 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Giraffe Academy");
-            Console.WriteLine("Giraffe\nAcademy");
-            Console.WriteLine("Giraffe\"Academy");
+            Console.WriteLine(20);
+            Console.WriteLine(20 + 10);
+            Console.WriteLine(20 - 10);
+            Console.WriteLine(20 / 10);
+            Console.WriteLine(20 * 10);
 
-            string phrase = "Giraffe Academy";
-            Console.WriteLine(phrase);
+            // modulus operator
+            Console.WriteLine(5 % 2);
 
-            string phrase2 = "Giraffe Academy" + " is cool.";
-            Console.WriteLine(phrase2);
+            Console.WriteLine(5 - 2 + 10 * 2);
+            Console.WriteLine(5 - (2 + 10) * 2);
 
-            // find how many characters in the phrase
-            Console.WriteLine(phrase.Length);
+            Console.WriteLine(5.0 + 3.1);
 
-            // methods in the string
-            // 1. Convert to uppercase
-            Console.WriteLine(phrase.ToUpper());
+            Console.WriteLine(5 / 2);
+            Console.WriteLine(5 / 2.0);
 
-            // 2. Convert to lowercase
-            Console.WriteLine(phrase.ToLower());
+            int num1 = 6;
+            Console.WriteLine(num1);
 
-            // 3. Contains method
-            Console.WriteLine(phrase.Contains("Academy"));
-            Console.WriteLine(phrase.Contains("Acadeis"));
+            num1++;
+            Console.WriteLine(num1);
 
-            // 4. letter in the string 
-            Console.WriteLine(phrase[0]); // first letter
-            Console.WriteLine(phrase[1]);
-            Console.WriteLine(phrase[6]);
-            Console.WriteLine(phrase[8]);
+            num1--;
+            Console.WriteLine(num1);
 
-            // 5. find index position that value is located in the string
-            Console.WriteLine(phrase.IndexOf("Academy"));
-            Console.WriteLine(phrase.IndexOf("f"));
-            Console.WriteLine(phrase.IndexOf("z"));
-
-            // 6. print part of the string
-            Console.WriteLine(phrase.Substring(8));
-            Console.WriteLine(phrase.Substring(8, 3));
-
+            // Math methods
+            Console.WriteLine(Math.Abs(-14));
+            Console.WriteLine(Math.Pow(5, 2));
+            Console.WriteLine(Math.Pow(5.2, 2));
+            Console.WriteLine(Math.Sqrt(25));
+            Console.WriteLine(Math.Max(25, 15));
+            Console.WriteLine(Math.Min(25, 15));
+            Console.WriteLine(Math.Round(2.4));
+            Console.WriteLine(Math.Round(2.7));
 
             Console.ReadLine();
         }
