@@ -10,15 +10,15 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter your name: ");
-            string name = Console.ReadLine();
+            Console.Write("Enter a number : ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter your age: ");
-            string age = Console.ReadLine();
+            Console.Write("Enter another number : ");
+            int num2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Hello, " + name + "!" + "\nAge: " + age);
+            Console.WriteLine(num1 + num2);
 
-            //Console.ReadLine();
+            // Console.ReadLine();
         }
     }
 }
