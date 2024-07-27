@@ -10,23 +10,17 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            // integer array
-            int[] array = { 4, 5, 8, 2, 10 };
-
-            // if want to change the number of elements
-            array[2] = 100;
-
-            Console.WriteLine(array[2]);
-
-            // string array
-            string[] stringArray = new string[5];
-
-            stringArray[0] = "John";
-            stringArray[1] = "Nike";
-
-            Console.WriteLine(stringArray[0]);
+            // calling to method
+            SayHi("Mike", 25);
+            SayHi("John", 23);
+            SayHi("Tom", 56);
 
             // Console.ReadLine();
+        }
+
+        static void SayHi(string name, int age)
+        {
+            Console.WriteLine("Hello! " + name + "\nAge: " + age);
         }
     }
 }
