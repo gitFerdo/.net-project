@@ -11,16 +11,18 @@ namespace Giraffe
         static void Main(string[] args)
         {
             // calling to method
-            SayHi("Mike", 25);
-            SayHi("John", 23);
-            SayHi("Tom", 56);
+            Console.WriteLine(Cube(5));
+
+            int cubeNumber = Cube(3);
+            Console.WriteLine(cubeNumber);
 
             // Console.ReadLine();
         }
 
-        static void SayHi(string name, int age)
+        static int Cube(int num)
         {
-            Console.WriteLine("Hello! " + name + "\nAge: " + age);
+            int result = num * num * num;
+            return result;
         }
     }
 }
