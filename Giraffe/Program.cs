@@ -10,22 +10,47 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            string color, pluralNoun, celebrity;
+            Console.WriteLine(GetMax(20, 10));
 
-            Console.Write("Enter a color: ");
-            color = Console.ReadLine();
-
-            Console.Write("Enter a plural noun: ");
-            pluralNoun = Console.ReadLine();
-
-            Console.Write("Enter a celebrity: ");
-            celebrity = Console.ReadLine();
-
-            Console.WriteLine("Roses are " + color);
-            Console.WriteLine(pluralNoun + " are blue");
-            Console.WriteLine("I Love " + celebrity);
+            Console.WriteLine(GetMax2(10, 30, 5));
 
             // Console.ReadLine();
+        }
+
+        static int GetMax(int num1, int num2)
+        {
+            int result;
+
+            if (num1 > num2)
+            {
+                result = num1;
+            }
+            else
+            {
+                result = num2;
+            }
+            return result;
+        }
+
+        // Comparison operator method
+        static int GetMax2(int num1, int num2, int num3)
+        {
+            int result;
+
+            if (num1 >= num2 && num1 >= num3)
+            {
+                result = num1;
+            }
+            else if (num2 >= num1 && num2 >= num3)
+            {
+                result = num2;
+            }
+            else
+            {
+                result = num3;
+            }
+
+            return result;
         }
     }
 }
