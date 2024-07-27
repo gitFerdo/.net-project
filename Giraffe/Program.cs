@@ -10,19 +10,27 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            // calling to method
-            Console.WriteLine(Cube(5));
+            bool isMale = false;
+            bool isTall = false;
 
-            int cubeNumber = Cube(3);
-            Console.WriteLine(cubeNumber);
+            if (isMale && isTall)
+            {
+                Console.WriteLine("You are Tall & Male");
+            }
+            else if (isMale && !isTall)
+            {
+                Console.WriteLine("You are short man");
+            }
+            else if (!isMale && isTall)
+            {
+                Console.WriteLine("You are female but you are tall");
+            }
+            else
+            {
+                Console.WriteLine("You are not Tall & female");
+            }
 
             // Console.ReadLine();
-        }
-
-        static int Cube(int num)
-        {
-            int result = num * num * num;
-            return result;
         }
     }
 }
