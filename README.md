@@ -8,6 +8,10 @@
 - Numbers
 - Get User Inputs
 - Arrays
+- Methods
+- Return Statement
+- If Statement
+    - Comparison
 
 ### Simple projects
 - Build basic calculator
