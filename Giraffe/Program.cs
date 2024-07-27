@@ -10,20 +10,21 @@ namespace Giraffe
     {
         static void Main(string[] args)
         {
-            string color, pluralNoun, celebrity;
+            // integer array
+            int[] array = { 4, 5, 8, 2, 10 };
 
-            Console.Write("Enter a color: ");
-            color = Console.ReadLine();
+            // if want to change the number of elements
+            array[2] = 100;
 
-            Console.Write("Enter a plural noun: ");
-            pluralNoun = Console.ReadLine();
+            Console.WriteLine(array[2]);
 
-            Console.Write("Enter a celebrity: ");
-            celebrity = Console.ReadLine();
+            // string array
+            string[] stringArray = new string[5];
 
-            Console.WriteLine("Roses are " + color);
-            Console.WriteLine(pluralNoun + " are blue");
-            Console.WriteLine("I Love " + celebrity);
+            stringArray[0] = "John";
+            stringArray[1] = "Nike";
+
+            Console.WriteLine(stringArray[0]);
 
             // Console.ReadLine();
         }
